@@ -1,0 +1,33 @@
+<%- include('partials/header'); -%>
+<div class="container">
+    <div class="row">
+        <div class="col-md-9">
+            <div class="thumbnail">
+               <img class="img-responsive" src="<%= article.image %>">
+               <div class="caption-full">
+                   <h4><a><%= article.name %></a></h4>
+                   <p><%= article.description %></p>
+                   <p>
+                       <em>Submitted By <a href="/user/<%= article.author.id %>"><%= article.author.username %></a></em>
+                   </p>
+               </div>
+            </div>
+            
+            <a class="btn btn-xs btn-warning" href="/">Go Back</a>
+        </div>
+    </div>
+</div>            
+            
+            
+            
+            
+           
+            
+            
+         
+            
+           
+
+
+
+
